@@ -4,6 +4,10 @@
 
 **An AI pipeline that reads 100,000 app reviews and tells a product team where to focus next quarter, with each number in its recommendation traceable to the reviews it came from.**
 
+
+🧪 **AI Lab · 04 / 04 · Multi-agent LLM systems**<br>
+One of a series of hands-on AI builds, each one learning a new layer of the stack by shipping something real. [See all builds →](https://github.com/tomas10k/ai-lab)
+
 [![Live dashboard](https://img.shields.io/badge/Live_dashboard-open-1DB954?style=for-the-badge&logo=vercel&logoColor=white)](https://haas-ai-a5-spotify-insight-pipeline.vercel.app/)
 [![Demo video](https://img.shields.io/badge/Demo_video-3_min-FF0000?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1pMleGuY7WNcjZznoMf1LIN9h-5viLjO8/view?usp=sharing)
 [![Technical report](https://img.shields.io/badge/Technical_report-read-555?style=for-the-badge&logo=readthedocs&logoColor=white)](docs/TECHNICAL_REPORT.md)
@@ -112,8 +116,8 @@ Each stage reads only the saved files of the stage before it, so any stage can b
 ## Run it yourself
 
 ```sh
-git clone https://github.com/tomas10k/haas-ai-a5-spotify-insight-pipeline.git
-cd haas-ai-a5-spotify-insight-pipeline
+git clone https://github.com/tomas10k/spotify-review-insights.git
+cd spotify-review-insights
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 ```
@@ -164,8 +168,11 @@ All of these are detailed in the [technical report](docs/TECHNICAL_REPORT.md#lim
 
 <div align="center">
 
-Built by **Tomas Diez Canedo** as the final project for *Foundations of Agentic AI* (MBA 290T, UC Berkeley Haas, Fall 2026).<br>
-Part of my course portfolio: [**haas-ai-fall-2026**](https://github.com/tomas10k/haas-ai-fall-2026), with all projects from reinforcement learning to multi-agent systems.<br>
+Built by **Tomas Diez Canedo** · capstone build of [**🧪 AI Lab**](https://github.com/tomas10k/ai-lab), made while taking *Foundations of Agentic AI* at UC Berkeley Haas (Fall 2026).<br>
 Data: [3.4M Spotify Google Store Reviews](https://www.kaggle.com/datasets/bwandowando/3-4-million-spotify-google-store-reviews) by BwandoWando (CC0).
 
 </div>
+
+<p align="center">
+<a href="https://github.com/tomas10k/offline-notes-ai">← 03 · Offline notes AI</a> &nbsp;·&nbsp; <a href="https://github.com/tomas10k/ai-lab"><b>🧪 AI Lab</b></a>
+</p>

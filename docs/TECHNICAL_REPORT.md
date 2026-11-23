@@ -77,7 +77,7 @@ MBA 290T final assignment (Tomas Diez Canedo). A staged, multi-role program that
 Python 3.12 or newer (runs were made on 3.14.7, macOS).
 
 ```sh
-git clone https://github.com/tomas10k/haas-ai-a5-spotify-insight-pipeline.git && cd haas-ai-a5-spotify-insight-pipeline
+git clone https://github.com/tomas10k/spotify-review-insights.git && cd spotify-review-insights
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 cp .env.example .env        # only needed for PAID commands; fill ANTHROPIC_API_KEY and TYPESAFE_API_KEY (OPENAI_API_KEY is not used)
