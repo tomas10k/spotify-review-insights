@@ -164,7 +164,8 @@ All of these are detailed in the [technical report](docs/TECHNICAL_REPORT.md#lim
 
 <div align="center">
 
-Built by **Tomas Diez Canedo** as the final project for *Fundamentals of Agentic AI* (MBA 290T, UC Berkeley Haas, Fall 2026).<br>
+Built by **Tomas Diez Canedo** as the final project for *Foundations of Agentic AI* (MBA 290T, UC Berkeley Haas, Fall 2026).<br>
+Part of my course portfolio: [**haas-ai-fall-2026**](https://github.com/tomas10k/haas-ai-fall-2026), with all projects from reinforcement learning to multi-agent systems.<br>
 Data: [3.4M Spotify Google Store Reviews](https://www.kaggle.com/datasets/bwandowando/3-4-million-spotify-google-store-reviews) by BwandoWando (CC0).
 
 </div>
